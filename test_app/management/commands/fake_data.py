@@ -24,7 +24,7 @@ class Command(BaseCommand):
 
     @staticmethod
     def print_success_message():
-        print(f"\033[92m  Creation of positions was successful!\033[0m")
+        print(f"\n\033[92m  Creation of positions was successful!\033[0m")
 
     @staticmethod
     def create_positions(data):
