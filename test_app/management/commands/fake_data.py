@@ -41,7 +41,7 @@ class Command(BaseCommand):
 
     @staticmethod
     def write_to_json(data):
-        with open("position_data.json", "w") as json_file:
+        with open("/app/position_data.json", "w") as json_file:
             json.dump(data, json_file, indent=4, separators=(",", ": "))
 
     def handle(self, *args, **options):
